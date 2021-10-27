@@ -1,6 +1,6 @@
 const fs = require('fs');
 const scraperObject = {
-    url: 'https://www.olx.ba/profil/nucamerc',
+    url: 'https://www.olx.ba/profil/nazivprofila',
     async scraper(browser){
         let page = await browser.newPage();
         console.log(`Navigating to ${this.url}...`);
